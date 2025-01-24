@@ -7,7 +7,11 @@ export default {
     "./app.vue",
     "./error.vue",],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'max-sm': {'max': '480px'},
+      },
+    },
   },
   plugins: [],
 }
